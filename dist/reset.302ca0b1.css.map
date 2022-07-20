@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"reset.302ca0b1.css","sourceRoot":"..","sourcesContent":["button {\r\n  border: none;\r\n  background: none;\r\n  cursor: pointer;\r\n}"]}

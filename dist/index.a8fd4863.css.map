@@ -1,1 +1,0 @@
-{"mappings":"AAAA","sources":["scss/reset.scss"],"sourcesContent":["button {\r\n  border: none;\r\n  background: none;\r\n  cursor: pointer;\r\n}"],"names":[],"version":3,"file":"index.a8fd4863.css.map","sourceRoot":"/__parcel_source_root/"}

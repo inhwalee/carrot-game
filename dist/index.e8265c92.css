@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
+body {
+  width: 100%;
+  min-width: 1200px;
+  word-break: break-all;
+  margin: 0 auto;
+  font-size: 16px;
+  position: relative;
+}
+
+#backdrop-root {
+  z-index: 999;
+  background: #0009;
+  display: none;
+  position: absolute;
+  inset: 0;
+}
+
+#backdrop-root.on {
+  display: block;
+}
+
+#modal-root {
+  width: 680px;
+  height: 44%;
+  z-index: 999;
+  background: #fff;
+  border: 8px solid #111;
+  border-radius: 40px;
+  display: none;
+  position: absolute;
+  top: 28%;
+  left: calc(50% - 340px);
+}
+
+#modal-root .text-area {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+}
+
+#modal-root .text-area button {
+  margin-top: 42px;
+  line-height: 1;
+  display: flex;
+}
+
+#modal-root .text-area button span {
+  min-width: 140px;
+  background: #ddd;
+  border: 8px solid #111;
+  border-radius: 20px;
+  margin: 0 1rem;
+  padding: 1.8rem 2.4rem;
+  font-size: 62px;
+  transition: all .2s;
+  display: block;
+}
+
+#modal-root .text-area button span.on {
+  color: #fff;
+  background: #111;
+}
+
+#modal-root .text-area button span:hover {
+  color: #fff;
+  background: orange;
+}
+
+#modal-root.on {
+  display: block;
+}
+
+.bg {
+  height: 100vh;
+  min-height: 800px;
+  background-image: url("background.0c55243b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  width: 30%;
+  min-width: 800px;
+  background-color: #ffffffb3;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2em 2em 3em;
+  font-weight: 600;
+  display: flex;
+  position: relative;
+  top: 5%;
+}
+
+header .controller {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+header .controller button span {
+  font-size: 84px;
+  display: none;
+}
+
+header .controller button span.on {
+  display: block;
+}
+
+header .controller #time-limit {
+  margin-top: -6px;
+  margin-left: 8px;
+  font-size: 48px;
+}
+
+header #mission {
+  margin-top: 1em;
+  font-size: 36px;
+}
+
+main {
+  height: 40%;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+}
+
+main img {
+  cursor: pointer;
+  position: absolute;
+}
+
+main img[data-index|="good"] {
+  z-index: 99;
+}
+
+/*# sourceMappingURL=index.e8265c92.css.map */

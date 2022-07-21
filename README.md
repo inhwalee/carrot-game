@@ -1,4 +1,4 @@
-# carrot-game
+# Carrot Game
 [DEMO](https://inhwalee.github.io/carrot-game/)
   
 ![carrot-game](https://user-images.githubusercontent.com/54103723/180135365-755f0017-177f-4ea3-94dd-d1f20090b301.gif)

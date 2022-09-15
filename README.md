@@ -1,4 +1,6 @@
 # Carrot Game
+정해진 시간 안에 벌레를 피해 당근을 수확하는 게임입니다.
+
 [DEMO](https://inhwalee.github.io/carrot-game/)
   
 ![carrot-game](https://user-images.githubusercontent.com/54103723/180135365-755f0017-177f-4ea3-94dd-d1f20090b301.gif)
